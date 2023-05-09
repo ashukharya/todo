@@ -99,7 +99,7 @@ input[type="text"]:focus {
 }
  
 
-
+/* 
 
  @media screen and (max-width: 800px) {
     .todo {
@@ -119,4 +119,4 @@ input[type="text"]:focus {
     p{
      font-size: 30px;
     }
- }
+ } */
