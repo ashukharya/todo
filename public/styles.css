@@ -101,23 +101,23 @@ input[type="text"]:focus {
 
 
 
- @media screen and (min-width: 1400px)
+ @media screen and (min-width: 1600px)
  {
     .todo {
         margin: 7% auto;
-        width: 600px;
-        padding-top:130px;
+        width: 1000px;
+        padding-top:430px;
     }
     
     .items {
-        min-height: 100px;
-        border-bottom: 1px solid #F1F1F1;
+        min-height: 200px;
+        border-bottom: 10px solid #F1F1F1;
         display: flex;
     }
     h1{
-        font-size: 40px;
+        font-size: 70px;
     }
     p{
-     font-size: 33px;
+     font-size: 53px;
     }
  }
