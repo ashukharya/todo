@@ -117,7 +117,19 @@ input[type="text"]:focus {
     h1{
         font-size: 60px;
     }
+    input[type="text"] {
+        width:700px;
+    }
     p{
      font-size: 34px;
+     font-weight: bold;
+    }
+    .bit{
+        width:150px;
+        height:25px;
+        font-size:20px;
+        border: 0;
+        border-radius: 5px;
+        margin:5px 20px;
     }
  }
