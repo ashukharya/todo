@@ -101,7 +101,8 @@ input[type="text"]:focus {
 
 
 
- @media screen and (max-width: 820px) {
+ @media screen and (max-width: 920px)
+ {
     .todo {
         margin: 7% auto;
         width: 600px;
