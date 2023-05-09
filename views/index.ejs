@@ -1,0 +1,32 @@
+<%- include("header") %> 
+    <div class="todo">
+        <div class="title">
+            <h1>
+                <%= toDay %>
+            </h1>
+        </div>
+        <div class="box"> 
+            <p style="font-size:13px; text-align:center; letter-spacing:2px;">Hit "+" to enter in list.</p>
+            <ul>
+                <% for(var i=0;i<items.length;i++){ %> 
+                <form action="/delete" method="post">
+                    <li class="items"><input type="checkbox"  name="checkbox" value=<%= items[i]._id %>  onChange="this.form.submit()" >
+                        <p> <%= items[i].name %> 
+                        </p> 
+                    </li>
+                </form>
+                    <% } %>
+            </ul>
+            <form action="/" method="post">
+                <input type="text" name="chore" placeholder="New Items" autocomplete="off">
+                <button class="btn" type="submit" name="list" value="<%= toDay %>"><i class="fa-solid fa-plus"></i></button>
+                <button class="bit bet" name="clear" value="saaf">Clear</button>
+                <button class="bit"name="nxts" value="wrk">Week End</button>
+                <button name="nxt" class="bit"value="wrk">Work</button>
+            </form>
+
+        </div> 
+    </div>
+
+    
+<%- include("footer") %> 
