@@ -101,7 +101,7 @@ input[type="text"]:focus {
 
 
 
- @media screen and (min-width: 760px)
+ @media screen and (min-width: 960px)
  {
     .todo {
         margin: 7% auto;
@@ -111,7 +111,7 @@ input[type="text"]:focus {
     
     .items {
         min-height: 100px;
-        border-bottom: 5px solid #F1F1F1;
+        border-bottom: 5px solid #b62d2d;
         display: flex;
     }
     h1{
